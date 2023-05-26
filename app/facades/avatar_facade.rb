@@ -3,6 +3,6 @@ class AvatarFacade
   private
 
     def service
-      @_service ||= MarketMoneyService.new
+      @_service ||= AvatarService.new
     end
 end
