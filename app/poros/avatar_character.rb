@@ -14,4 +14,20 @@ class AvatarCharacter
     @affiliation = data[:affiliation]
     @id = data[:id]
   end
+
+  def get_enemies
+    if enemies.empty?
+      "none"
+    else
+      @enemies
+    end
+  end
+
+  def get_allies
+    if allies.empty?
+      "none"
+    else
+      @allies
+    end
+  end
 end
