@@ -1,13 +1,13 @@
 class AvatarService
 
   def get_fire_nation
-    get_url("/api/v1/characters?affiliation=NATION+NAME")
+    get_url("/api/v1/characters?affiliation=fire+nation")
   end
 
 
   private
   def conn
-    conn = Faraday.new(url: "http://last-airbender-api.fly.dev/") do |faraday|
+    conn = Faraday.new(url: "https://last-airbender-api.fly.dev") do |faraday|
     end
   end
 
