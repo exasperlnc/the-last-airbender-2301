@@ -1,5 +1,5 @@
 <h3> Total Characters: <%= @characters.count %> </h3>
-<% @characters.each do |character| %>
+<% @characters.first(25).each do |character| %>
   Name: <%= character.name%><br>
   Allies: <%= character.get_allies%><br>
   Enemies: <%= character.get_enemies%><br>

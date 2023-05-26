@@ -1,7 +1,7 @@
 class AvatarService
 
   def get_fire_nation
-    get_url("/api/v1/characters?affiliation=fire+nation")
+    get_url("/api/v1/characters?affiliation=fire+nation&perPage=1000")
   end
 
 

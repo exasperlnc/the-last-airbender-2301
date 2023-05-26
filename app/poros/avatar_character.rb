@@ -17,7 +17,7 @@ class AvatarCharacter
 
   def get_enemies
     if enemies.empty?
-      "none"
+      "None"
     else
       @enemies
     end
@@ -25,7 +25,7 @@ class AvatarCharacter
 
   def get_allies
     if allies.empty?
-      "none"
+      "None"
     else
       @allies
     end
